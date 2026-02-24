@@ -7,9 +7,11 @@ const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // UI only — no backend
-  };
+  e.preventDefault();
+  const subject = encodeURIComponent(`Message from ${form.name}`);
+  const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`);
+  window.location.href = `mailto:onashchenko.m@northeastern.edu?subject=${subject}&body=${body}`;
+};
 
   return (
     <section id="contact" className="py-28 px-6">
@@ -69,8 +71,8 @@ const Contact = () => {
         <div className="flex justify-center gap-4 mt-8">
           {[
             { icon: <Github className="w-5 h-5" />, href: "https://github.com/MEO256", label: "GitHub" },
-            { icon: <Linkedin className="w-5 h-5" />, href: "#", label: "LinkedIn" },
-            { icon: <Mail className="w-5 h-5" />, href: "mailto:maxim@example.com", label: "Email" },
+            { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/maximonashchenko/", label: "LinkedIn" },
+            { icon: <Mail className="w-5 h-5" />, href: "mailto:onashchenko.m@northeastern.edu", label: "Email" },
           ].map((s) => (
             <a
               key={s.label}
