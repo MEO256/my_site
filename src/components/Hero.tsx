@@ -30,6 +30,11 @@ const Hero = () => {
         <h1 className="text-6xl sm:text-8xl font-black tracking-tighter mb-6 animate-fade-up">
           <span className="text-gradient">Maxim</span>
         </h1>
+        <img 
+          src="/132910564.jpg" 
+          alt="Maxim Onashchenko" 
+          className="w-32 h-32 rounded-full mb-6 object-cover shadow-2xl shadow-blue-500/50 animate-float border-4 border-blue-500/30"
+        />
         <p className="text-lg sm:text-xl text-muted-foreground mb-10 h-16 animate-fade-up [animation-delay:0.3s] opacity-0">
           {typed}
           {showCursors && (
