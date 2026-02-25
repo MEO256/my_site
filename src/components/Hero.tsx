@@ -28,11 +28,12 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
         <div className="absolute -top-10 -left-10 w-24 h-24 bg-pink-500/20 rounded-full blur-[60px] animate-pulse-glow [animation-delay:0.5s]" />
-        <img 
-          src="/132910564.jpg" 
-          alt="Maxim Onashchenko" 
-          className="w-64 h-64 rounded-full justify-center mb-6 object-cover shadow-2xl shadow-blue-500/50 animate-float border-4 border-blue-500/30"
-        />
+        <div className="flex justify-center mb-6">
+          <img 
+            src="/132910564.jpg" 
+            alt="Maxim Onashchenko" 
+            className="w-64 h-64 rounded-full object-cover shadow-2xl shadow-blue-500/50 animate-float border-4 border-blue-500/30"
+          />
         </div>
         <h1 className="text-6xl sm:text-8xl font-black tracking-tighter mb-6 animate-fade-up">
           <span className="text-gradient">Maxim</span>
