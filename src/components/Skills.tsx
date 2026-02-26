@@ -1,26 +1,26 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { Code2, Brain, Globe, Wrench } from "lucide-react";
+import { Code2, Package, Wrench, Library } from "lucide-react";
 
 const categories = [
   {
     label: "Languages",
     icon: <Code2 className="w-5 h-5" />,
-    skills: ["Python", "JavaScript", "TypeScript"],
+    skills: ["Java", "Python", "JavaScript", "SQL", "HTML", "CSS", "C", "Kotlin", "C++", "C#"],
   },
   {
-    label: "ML / NLP",
-    icon: <Brain className="w-5 h-5" />,
-    skills: ["scikit-learn", "spaCy", "NLTK", "Word Embeddings"],
+    label: "Frameworks",
+    icon: <Package className="w-5 h-5" />,
+    skills: ["React", "Vue.js", "Tailwind CSS", "Vite", "Node.js", "React Bootstrap"],
   },
   {
-    label: "Web",
-    icon: <Globe className="w-5 h-5" />,
-    skills: ["React", "Tailwind CSS"],
-  },
-  {
-    label: "Tools",
+    label: "Tools & Programs",
     icon: <Wrench className="w-5 h-5" />,
-    skills: ["Git", "GitHub"],
+    skills: ["VS Code", "IntelliJ IDEA", "Git", "Docker", "Gradle", "Jenkins", "BitBucket", "VMWare", "SceneBuilder", "PowerShell", "JAICP", "SQL Server Management Studio", "Confluence"],
+  },
+  {
+    label: "Libraries",
+    icon: <Library className="w-5 h-5" />,
+    skills: ["Pandas", "NumPy", "JUnit", "Matplotlib", "Seaborn", "Beautiful Soup", "JSON", "API"],
   },
 ];
 
