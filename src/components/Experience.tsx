@@ -2,6 +2,21 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Briefcase, MapPin, Calendar } from "lucide-react";
 
 const experiences = [
+    {
+    company: "Northeastern University",
+    role: "Software Developer",
+    location: "Boston, MA",
+    period: "September 2025 – December 2025",
+    description: [
+        "Designing and developing a Final Exam Scheduler system with customized scheduling optimization algorithm in partnership with the University Registrar's Office",
+        "Implementing optimization criteria to minimize student exam overload by preventing back-to-back exams and capping schedules to maximum three exams per day",
+        "Developing algorithms to prioritize high-enrollment courses (100+ students) early in exam week to provide sufficient grading time",
+        "Building intuitive UI supporting efficient data importing, schedule visualization, and exporting in formats compatible with University systems",
+        "Creating conflict resolution system based on student enrollment, room availability, and faculty teaching schedules",
+        "Implementing support for consolidation of multiple course sections into single exam slots to streamline administration"
+    ],
+    stack: ["Python", "shadcn", "TypeScript", "AWS", "Docker"]
+  },
   {
     company: "Vestmark Inc",
     role: "Software Engineer Intern",

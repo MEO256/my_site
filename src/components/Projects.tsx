@@ -8,8 +8,8 @@ const projects = [
       "Compared Bag-of-Words vs. word embedding approaches for sentiment classification, achieving 92% accuracy on benchmark datasets.",
     stack: ["Python", "scikit-learn", "NLP"],
     icon: <BarChart3 className="w-8 h-8" />,
-    github: "#",
-    demo: "#",
+    github: null,
+    demo: null,
   },
   {
     title: "Named Entity Recognition",
@@ -17,7 +17,7 @@ const projects = [
       "Built a custom NER pipeline to extract entities from unstructured text using statistical and rule-based methods.",
     stack: ["Python", "spaCy", "NLTK"],
     icon: <Type className="w-8 h-8" />,
-    github: "#",
+    github: null,
     demo: null,
   },
   {
@@ -26,7 +26,7 @@ const projects = [
       "Built a comprehensive calendar application with 5000+ lines of code featuring full CRUD operations for tasks and events with customizable layouts.",
     stack: ["Java", "JSON", "XML", "SceneBuilder"],
     icon: <Calendar className="w-8 h-8" />,
-    github: "#",
+    github: "https://github.com/MEO256/Calendar",
     demo: null,
   },
   {
@@ -35,7 +35,7 @@ const projects = [
       "Developed an online Battleship game with Hunt/Target AI algorithm and real-time multiplayer using socket programming, following MVC architecture.",
     stack: ["Java", "Sockets", "JSON", "AI"],
     icon: <Gamepad2 className="w-8 h-8" />,
-    github: "#",
+    github: "https://github.com/MEO256/Battle_Ship",
     demo: null,
   },
 ];

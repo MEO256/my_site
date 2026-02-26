@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
 
-const tagline = "CS student passionate about ML & NLP — building things that understand language.";
+const tagline = "CS student passionate about building softwares that solves real world problems.";
 
 const Hero = () => {
   const [typed, setTyped] = useState("");
@@ -36,7 +36,7 @@ const Hero = () => {
           />
         </div>
         <h1 className="text-6xl sm:text-8xl font-black tracking-tighter mb-6 animate-fade-up">
-          <span className="text-gradient">Maxim</span>
+          <span className="text-gradient">Maxim Onashchenko</span>
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground mb-10 h-16 animate-fade-up [animation-delay:0.3s] opacity-0">
           {typed}
@@ -46,13 +46,13 @@ const Hero = () => {
         </p>
         <div className="flex gap-4 justify-center animate-fade-up [animation-delay:0.6s] opacity-0">
           <a
-            href="#projects"
+            href="#experience"
             className="px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:brightness-110 transition-all hover:shadow-[0_0_25px_hsl(var(--primary)/0.4)]"
           >
             See My Work
           </a>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1Sjuh5Z7kj72OQPUdu2siYHC_Q3vsJ3Hc/view?usp=sharing"
             className="px-6 py-3 border border-border text-foreground font-semibold rounded-lg hover:border-primary/50 hover:text-primary transition-all"
           >
             Download Resume

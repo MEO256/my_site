@@ -28,51 +28,12 @@ const Contact = () => {
           Open to new grad roles — let's connect!
         </p>
 
-        <form onSubmit={handleSubmit} className="glass rounded-2xl p-8 space-y-5">
-          <div>
-            <label className="block text-sm font-medium text-foreground mb-1.5">Name</label>
-            <input
-              type="text"
-              value={form.name}
-              onChange={(e) => setForm({ ...form, name: e.target.value })}
-              className="w-full rounded-lg border border-border bg-background/50 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all"
-              placeholder="Your name"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-foreground mb-1.5">Email</label>
-            <input
-              type="email"
-              value={form.email}
-              onChange={(e) => setForm({ ...form, email: e.target.value })}
-              className="w-full rounded-lg border border-border bg-background/50 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all"
-              placeholder="you@example.com"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-foreground mb-1.5">Message</label>
-            <textarea
-              value={form.message}
-              onChange={(e) => setForm({ ...form, message: e.target.value })}
-              rows={4}
-              className="w-full rounded-lg border border-border bg-background/50 px-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary/50 transition-all resize-none"
-              placeholder="What's on your mind?"
-            />
-          </div>
-          <button
-            type="submit"
-            className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:brightness-110 transition-all hover:shadow-[0_0_25px_hsl(var(--primary)/0.4)]"
-          >
-            <Send className="w-4 h-4" />
-            Send Message
-          </button>
-        </form>
 
         <div className="flex justify-center gap-4 mt-8">
           {[
-            { icon: <Github className="w-5 h-5" />, href: "https://github.com/MEO256", label: "GitHub" },
-            { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/in/maximonashchenko/", label: "LinkedIn" },
-            { icon: <Mail className="w-5 h-5" />, href: "mailto:onashchenko.m@northeastern.edu", label: "Email" },
+            { icon: <Github className="w-20 h-20" />, href: "https://github.com/MEO256", label: "GitHub" },
+            { icon: <Linkedin className="w-20 h-20" />, href: "https://www.linkedin.com/in/maximonashchenko/", label: "LinkedIn" },
+            { icon: <Mail className="w-20 h-20" />, href: "mailto:onashchenko.m@northeastern.edu", label: "Email" },
           ].map((s) => (
             <a
               key={s.label}
