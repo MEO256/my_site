@@ -35,7 +35,7 @@ const Hero = () => {
             className="w-64 h-64 rounded-full object-cover shadow-2xl shadow-blue-500/50 animate-float border-4 border-blue-500/30"
           />
         </div>
-        <h1 className="text-9xl sm:text-8xl font-black tracking-tighter mb-6 animate-fade-up">
+        <h1 className="text-4xl sm:text-6xl lg:text-8xl font-black tracking-tighter mb-6 animate-fade-up">
           <span className="text-gradient">Maxim Onashchenko</span>
         </h1>
         <p className="text-lg sm:text-xl text-muted-foreground mb-10 h-16 animate-fade-up [animation-delay:0.3s] opacity-0">
