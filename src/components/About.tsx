@@ -20,15 +20,25 @@ const About = () => {
           <p className="text-muted-foreground leading-relaxed mb-4">
             Hey! I'm Maxim — a Computer Science student at{" "}
             <span className="text-foreground font-medium">Northeastern University</span>{" "}
-            graduating in April 2026. I'm fascinated by how machines can understand human
-            language, which led me deep into the worlds of{" "}
-            <span className="text-foreground font-medium">Machine Learning</span> and{" "}
-            <span className="text-foreground font-medium">Natural Language Processing</span>.
+            graduating in May 2026. That is my personal website. Made it for fun actually. I'm 
+            passionate about building software that solves real problems, from{" "}
+            <span className="text-foreground font-medium">trading platforms</span> to{" "}
+            <span className="text-foreground font-medium">intelligent chatbots</span>.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            I've had the opportunity to work with different amazing teams at{" "}
+            <span className="text-foreground font-medium">Vestmark</span> on financial trading 
+            systems and at <span className="text-foreground font-medium">Anisad</span> developing 
+            multilingual AI chatbot. I love making life easier for humans and companies by building reliable software.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            With an international background and a builder mindset, I love turning complex
-            research ideas into working systems. Whether it's training sentiment classifiers
-            or designing NER pipelines, I'm always looking for the next problem to solve.
+            When I'm not coding, you'll find me playing soccer, volleyball, 
+            learning German (currently at A2), or cheering for{" "}
+            <span className="text-foreground font-medium">Borussia Dortmund</span> or 
+            <span className="text-foreground font-medium">Ferrari</span> in Formula 1.
+             I'm actively 
+            seeking full-time software engineering opportunities where I can contribute to 
+            meaningful projects and continue growing as a developer.
           </p>
         </div>
 
@@ -38,15 +48,19 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent" />
             <div className="relative grid grid-cols-2 gap-6">
               <div className="flex flex-col items-center gap-3 p-4">
+                <Code className="w-10 h-10 text-primary" />
+                <span className="text-sm text-muted-foreground text-center">Backend Engineer</span>
+              </div>
+              <div className="flex flex-col items-center gap-3 p-4">
                 <Brain className="w-10 h-10 text-primary" />
-                <span className="text-sm text-muted-foreground text-center">ML & NLP</span>
+                <span className="text-sm text-muted-foreground text-center">Frontend Engineer</span>
               </div>
               <div className="flex flex-col items-center gap-3 p-4">
                 <Code className="w-10 h-10 text-primary" />
                 <span className="text-sm text-muted-foreground text-center">Full Stack</span>
               </div>
               <div className="col-span-2 text-center">
-                <div className="text-4xl font-black text-gradient">2026</div>
+                <div className="text-4xl font-black text-gradient">May 2026</div>
                 <div className="text-xs text-muted-foreground mt-1">Northeastern University</div>
               </div>
             </div>
