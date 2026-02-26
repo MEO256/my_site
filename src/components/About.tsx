@@ -48,12 +48,8 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent" />
             <div className="relative grid grid-cols-2 gap-6">
               <div className="flex flex-col items-center gap-3 p-4">
-                <Code className="w-10 h-10 text-primary" />
-                <span className="text-sm text-muted-foreground text-center">Backend Engineer</span>
-              </div>
-              <div className="flex flex-col items-center gap-3 p-4">
                 <Brain className="w-10 h-10 text-primary" />
-                <span className="text-sm text-muted-foreground text-center">Frontend Engineer</span>
+                <span className="text-sm text-muted-foreground text-center">Frontend and Backend Engineer</span>
               </div>
               <div className="flex flex-col items-center gap-3 p-4">
                 <Code className="w-10 h-10 text-primary" />
