@@ -1,5 +1,5 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { Github, ExternalLink, BarChart3, Type, Plus } from "lucide-react";
+import { Github, ExternalLink, BarChart3, Type, Plus, Calendar, Gamepad2 } from "lucide-react";
 
 const projects = [
   {
@@ -17,6 +17,24 @@ const projects = [
       "Built a custom NER pipeline to extract entities from unstructured text using statistical and rule-based methods.",
     stack: ["Python", "spaCy", "NLTK"],
     icon: <Type className="w-8 h-8" />,
+    github: "#",
+    demo: null,
+  },
+  {
+    title: "Calendar Task Manager",
+    description:
+      "Built a comprehensive calendar application with 5000+ lines of code featuring full CRUD operations for tasks and events with customizable layouts.",
+    stack: ["Java", "JSON", "XML", "SceneBuilder"],
+    icon: <Calendar className="w-8 h-8" />,
+    github: "#",
+    demo: null,
+  },
+  {
+    title: "Multiplayer Battleship Game",
+    description:
+      "Developed an online Battleship game with Hunt/Target AI algorithm and real-time multiplayer using socket programming, following MVC architecture.",
+    stack: ["Java", "Sockets", "JSON", "AI"],
+    icon: <Gamepad2 className="w-8 h-8" />,
     github: "#",
     demo: null,
   },

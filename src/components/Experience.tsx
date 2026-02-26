@@ -14,7 +14,7 @@ const experiences = [
       "Made UI enhancements to the trade generation interface, improving usability and user interaction",
       "Implemented data decoding solutions to transform UTF-8 encoded information into human-readable formats"
     ],
-    stack: ["Java", "JavaScript", "Yarn", "Docker", "Gradle", "Jenkins"]
+    stack: ["Java", "JavaScript","SQL", "Yarn", "Docker", "Gradle", "Jenkins"]
   },
   {
     company: "Anisad",
@@ -28,7 +28,7 @@ const experiences = [
       "Implemented geographical search into the AI to display exact location of properties",
       "Integrated various LLMs to improve question-answering capabilities and overall system performance"
     ],
-    stack: ["JavaScript", "JSON", "JAICP", "Telegram Bot", "LLM", "AI"]
+    stack: ["JavaScript", "JSON", "JAICP", "Scala", "Telegram Bot", "LLM", "AI"]
   },
   {
     company: "JunziTech Solutions LLC",
@@ -40,7 +40,7 @@ const experiences = [
       "Designed the main page layout and user interface in Figma, ensuring a visually appealing and user-friendly experience",
       "Implemented the website's front-end interface using React and Vue.js, ensuring cross-browser compatibility and accessibility"
     ],
-    stack: ["React", "Vue.js", "Vite", "Figma", "Tailwind CSS"]
+    stack: ["React", "TypeScript", "Vue.js", "Vite", "Figma", "Tailwind CSS"]
   }
 ];
 
