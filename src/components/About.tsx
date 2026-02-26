@@ -34,7 +34,7 @@ const About = () => {
           <p className="text-muted-foreground leading-relaxed">
             When I'm not coding, you'll find me playing soccer, volleyball, 
             learning German (currently at A2), or cheering for{" "}
-            <span className="text-foreground font-medium">Borussia Dortmund</span> or 
+            <span className="text-foreground font-medium">Borussia Dortmund</span> or {" "} 
             <span className="text-foreground font-medium">Ferrari</span> in Formula 1.
              I'm actively 
             seeking full-time software engineering opportunities where I can contribute to 
